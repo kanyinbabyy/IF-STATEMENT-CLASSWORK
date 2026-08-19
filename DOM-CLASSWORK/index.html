@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First JavaScript</title>
+</head>
+<body>
+    <div class = "container">
+        <h1> This is my first JavaScript code</h1>
+        <button id = "button"></button>
+    </div>
+
+    <style>
+        body{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:fuchsia;
+            padding-top: 150px;
+        }
+   .container{
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+   }
+   button{
+    padding: 10px;
+    font-size: 16px;
+   }
+
+    </style>
+    
+    <script>
+        let heading = document.getElementById("heading");
+        let button = document.getElementById("button");
+        heading.innerHTML = "This will not be my last Javascript code";
+        button.innerHTML = "Submit"
+        console.log(heading);
+        console.log(button);
+    </script>
+</body>
+
+</html>
